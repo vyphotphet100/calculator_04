@@ -89,7 +89,8 @@
                 android:background="#D6D7D7"
                 android:text="7"
                 android:textColor="@color/black"
-                android:textSize="50dp" />
+                android:autoSizeMaxTextSize="50sp"
+                android:autoSizeTextType="uniform"/>
 
             <Button
                 android:id="@+id/button8"
@@ -100,7 +101,8 @@
                 android:background="#D6D7D7"
                 android:text="8"
                 android:textColor="@color/black"
-                android:textSize="50dp" />
+                android:autoSizeMaxTextSize="50sp"
+                android:autoSizeTextType="uniform" />
 
             <Button
                 android:id="@+id/button9"
@@ -111,7 +113,8 @@
                 android:background="#D6D7D7"
                 android:text="9"
                 android:textColor="@color/black"
-                android:textSize="50dp" />
+                android:autoSizeMaxTextSize="50sp"
+                android:autoSizeTextType="uniform" />
 
             <Button
                 android:id="@+id/buttonDivide"
@@ -122,7 +125,8 @@
                 android:background="#FF8900"
                 android:text="/"
                 android:textColor="@color/black"
-                android:textSize="50dp" />
+                android:autoSizeMaxTextSize="50sp"
+                android:autoSizeTextType="uniform" />
 
         </LinearLayout>
 
@@ -149,7 +153,8 @@
                 android:background="#E5E5E5"
                 android:text="4"
                 android:textColor="@color/black"
-                android:textSize="50dp" />
+                android:autoSizeMaxTextSize="50sp"
+                android:autoSizeTextType="uniform" />
 
             <Button
                 android:id="@+id/button5"
@@ -160,7 +165,8 @@
                 android:background="#E5E5E5"
                 android:text="5"
                 android:textColor="@color/black"
-                android:textSize="50dp" />
+                android:autoSizeMaxTextSize="50sp"
+                android:autoSizeTextType="uniform" />
 
             <Button
                 android:id="@+id/button6"
@@ -171,7 +177,8 @@
                 android:background="#E5E5E5"
                 android:text="6"
                 android:textColor="@color/black"
-                android:textSize="50dp" />
+                android:autoSizeMaxTextSize="50sp"
+                android:autoSizeTextType="uniform" />
 
             <Button
                 android:id="@+id/buttonMultiple"
@@ -182,7 +189,8 @@
                 android:background="#FF8900"
                 android:text="x"
                 android:textColor="@color/black"
-                android:textSize="50dp" />
+                android:autoSizeMaxTextSize="50sp"
+                android:autoSizeTextType="uniform" />
 
         </LinearLayout>
 
@@ -204,7 +212,8 @@
                 android:background="#E5E5E5"
                 android:text="1"
                 android:textColor="@color/black"
-                android:textSize="50dp" />
+                android:autoSizeMaxTextSize="50sp"
+                android:autoSizeTextType="uniform" />
 
             <Button
                 android:id="@+id/button2"
@@ -215,7 +224,8 @@
                 android:background="#E5E5E5"
                 android:text="2"
                 android:textColor="@color/black"
-                android:textSize="50dp" />
+                android:autoSizeMaxTextSize="50sp"
+                android:autoSizeTextType="uniform" />
 
             <Button
                 android:id="@+id/button3"
@@ -226,7 +236,8 @@
                 android:background="#E5E5E5"
                 android:text="3"
                 android:textColor="@color/black"
-                android:textSize="50dp" />
+                android:autoSizeMaxTextSize="50sp"
+                android:autoSizeTextType="uniform" />
 
             <Button
                 android:id="@+id/buttonMinus"
@@ -237,7 +248,8 @@
                 android:background="#FF8900"
                 android:text="-"
                 android:textColor="@color/black"
-                android:textSize="50dp" />
+                android:autoSizeMaxTextSize="50sp"
+                android:autoSizeTextType="uniform" />
 
         </LinearLayout>
 
@@ -259,7 +271,8 @@
                 android:background="#E5E5E5"
                 android:text="0"
                 android:textColor="@color/black"
-                android:textSize="50dp" />
+                android:autoSizeMaxTextSize="50sp"
+                android:autoSizeTextType="uniform" />
 
 
             <Button
@@ -271,7 +284,8 @@
                 android:background="#E5E5E5"
                 android:text="."
                 android:textColor="@color/black"
-                android:textSize="50dp" />
+                android:autoSizeMaxTextSize="50sp"
+                android:autoSizeTextType="uniform" />
 
 
             <Button
@@ -283,7 +297,8 @@
                 android:background="#FF8900"
                 android:text="+"
                 android:textColor="@color/black"
-                android:textSize="50dp" />
+                android:autoSizeMaxTextSize="50sp"
+                android:autoSizeTextType="uniform" />
 
         </LinearLayout>
 
@@ -305,7 +320,8 @@
                 android:background="#FF8900"
                 android:text="c"
                 android:textColor="@color/black"
-                android:textSize="50dp" />
+                android:autoSizeMaxTextSize="50sp"
+                android:autoSizeTextType="uniform" />
 
 
             <Button
@@ -317,7 +333,8 @@
                 android:background="#FF8900"
                 android:text="="
                 android:textColor="@color/black"
-                android:textSize="50dp" />
+                android:autoSizeMaxTextSize="50sp"
+                android:autoSizeTextType="uniform" />
 
         </LinearLayout>
 
