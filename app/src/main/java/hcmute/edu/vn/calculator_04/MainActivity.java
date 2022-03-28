@@ -169,7 +169,8 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View view) {
             checkJustDoOperation();
 
-            txtView1.setText(txtView1.getText() + ".");
+            if (!txtView1.getText().toString().contains("."))
+                txtView1.setText(txtView1.getText() + ".");
         }
     };
 
@@ -212,7 +213,10 @@ public class MainActivity extends AppCompatActivity {
     private View.OnClickListener btnEqual_OnClick = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            if (checkedPlus) {
+            if (txtView1.getText().toString().equals("") || txtView1.getText().toString().equals(".")) {
+                Toast.makeText(MainActivity.this, "Please input second number!", Toast.LENGTH_SHORT).show();
+                return;
+            } else if (checkedPlus) {
                 afterPlus();
             } else if (checkedMinus) {
                 afterMinus();
@@ -222,6 +226,7 @@ public class MainActivity extends AppCompatActivity {
                 afterMultiple();
             } else {
                 Toast.makeText(MainActivity.this, "You didn't choose operation!", Toast.LENGTH_SHORT).show();
+                return;
             }
 
             checkedJustDoOperation = true;
