@@ -6,6 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!--
+    - Người thực hiện: Nguyễn Anh Đức
+    - Thời gian: 21:53 PM
+    - LinearLayout: Giúp ta chứa các phần tử con theo 2 cách xếp
+    khác nhau: dọc (vertical) và ngang (horizontal)
+    -->
+    <!-- Chứa Textview hiển thị kết quả phép tính    -->
     <LinearLayout
         android:id="@+id/line"
         android:layout_width="match_parent"
@@ -49,16 +56,9 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-
-
     </LinearLayout>
 
-    <!--
-    - Người thực hiện: Nguyễn Anh Đức
-    - Thời gian: 21:53 PM
-    - LinearLayout: Giúp ta chứa các phần tử con theo 2 cách xếp
-    khác nhau: dọc (vertical) và ngang (horizontal)
-    -->
+    <!-- Chứa các Linear Layout con khác    -->
     <LinearLayout
         android:id="@+id/line1"
         android:layout_width="match_parent"
@@ -71,6 +71,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/line">
 
+        <!-- Chứa các Button    -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -193,7 +194,6 @@
                 android:autoSizeTextType="uniform" />
 
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -252,7 +252,6 @@
                 android:autoSizeTextType="uniform" />
 
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -301,7 +300,6 @@
                 android:autoSizeTextType="uniform" />
 
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -337,7 +335,6 @@
                 android:autoSizeTextType="uniform" />
 
         </LinearLayout>
-
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

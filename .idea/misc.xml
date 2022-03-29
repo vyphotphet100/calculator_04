@@ -7,7 +7,7 @@
         <entry key="app/src/main/res/drawable/button_color.xml" value="0.1765" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.166" />
         <entry key="app/src/main/res/drawable/transparent_bg_bordered.xml" value="0.169" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
       </map>
     </option>
   </component>
